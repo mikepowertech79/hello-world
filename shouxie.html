@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US"><head><!-- Created by Mike Ryzhov -->
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+
+    <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="style.css" media="screen">
+    <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
+    <link rel="stylesheet" href="style.responsive.css" media="all">
+
+
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <script src="script.responsive.js"></script>
+
+
+<script>jQuery(function ($) {
+    'use strict';
+    if ($.fn.themeSlider) {
+        $(".art-slidecontainershutterstock_12843229").each(function () {
+            var slideContainer = $(this), tmp;
+            var inner = $(".art-slider-inner", slideContainer);
+            inner.children().filter("script").remove();
+            var helper = null;
+            
+            if ($.support.themeTransition) {
+                helper = new BackgroundHelper();
+                helper.init("fade", "next", $(".art-slide-item", inner).first().css($.support.themeTransition.prefix + "transition-duration"));
+                inner.children().each(function () {
+                    helper.processSlide($(this));
+                });
+
+                
+            } else if (browser.ie && browser.version <= 8) {
+                var slidesInfo = {
+".art-slideshutterstock_128432290": {
+    "bgimage" : "url('images/slideshutterstock_128432290.jpg')",
+    "bgposition": "0 0",
+    "images": "",
+    "positions": ""
+},
+".art-slideshutterstock_128432291": {
+    "bgimage" : "url('images/slideshutterstock_128432291.jpg')",
+    "bgposition": "0 0",
+    "images": "",
+    "positions": ""
+}
+                };
+                $.each(slidesInfo, function(selector, info) {
+                    processElementMultiplyBg(slideContainer.find(selector), info);
+                });
+            }
+
+            inner.children().eq(0).addClass("active");
+            slideContainer.themeSlider({
+                pause: 2600,
+                speed: 600,
+                repeat: true,
+                animation: "fade",
+                direction: "next",
+                navigator: slideContainer.siblings(".art-slidenavigatorshutterstock_12843229"),
+                helper: helper
+            });
+            
+                        
+        });
+    }
+});
+jQuery(function ($) {
+    'use strict';
+    if ($.fn.themeSlider) {
+        $(".art-slidecontainershutterstock_10015342").each(function () {
+            var slideContainer = $(this), tmp;
+            var inner = $(".art-slider-inner", slideContainer);
+            inner.children().filter("script").remove();
+            var helper = null;
+            
+            if ($.support.themeTransition) {
+                helper = new BackgroundHelper();
+                helper.init("fade", "next", $(".art-slide-item", inner).first().css($.support.themeTransition.prefix + "transition-duration"));
+                inner.children().each(function () {
+                    helper.processSlide($(this));
+                });
+
+                
+            } else if (browser.ie && browser.version <= 8) {
+                var slidesInfo = {
+".art-slideshutterstock_100153420": {
+    "bgimage" : "url('images/slideshutterstock_100153420.jpg')",
+    "bgposition": "0 0",
+    "images": "",
+    "positions": ""
+},
+".art-slideshutterstock_100153421": {
+    "bgimage" : "url('images/slideshutterstock_100153421.jpg')",
+    "bgposition": "0 0",
+    "images": "",
+    "positions": ""
+}
+                };
+                $.each(slidesInfo, function(selector, info) {
+                    processElementMultiplyBg(slideContainer.find(selector), info);
+                });
+            }
+
+            inner.children().eq(0).addClass("active");
+            slideContainer.themeSlider({
+                pause: 2600,
+                speed: 600,
+                repeat: true,
+                animation: "fade",
+                direction: "next",
+                navigator: slideContainer.siblings(".art-slidenavigatorshutterstock_10015342"),
+                helper: helper
+            });
+            
+                        
+        });
+    }
+});
+</script><style>.art-content .art-postcontent-0 .layout-item-0 { color: #B2B2B2; background: #1C3F5A; padding: 15px;  }
+.ie7 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+.ie6 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+
+.art-slidecontainershutterstock_12843229 {
+    position: relative;
+        width: 306px;
+    height: 204px;
+        }
+
+.default-responsive .art-header .art-slidecontainershutterstock_12843229,
+.responsive .art-header .art-slidecontainershutterstock_12843229
+{
+  position: absolute !important;
+}
+
+.responsive .art-pageslider .art-slidecontainershutterstock_12843229 {
+  position: absolute !important;
+}
+
+.art-slidecontainershutterstock_12843229 .art-slide-item
+{
+
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    transform: rotate(0);
+}
+
+
+
+.art-slidecontainershutterstock_12843229 .art-slide-item {
+    -webkit-transition: 600ms ease-in-out opacity;
+    -moz-transition: 600ms ease-in-out opacity;
+    -ms-transition: 600ms ease-in-out opacity;
+    -o-transition: 600ms ease-in-out opacity;
+    transition: 600ms ease-in-out opacity;
+    position: absolute !important;
+    display: none;
+	left: 0;
+	top: 0;
+	opacity: 0;
+    width:  100%;
+    height: 100%;
+}
+
+.art-slidecontainershutterstock_12843229 .active, .art-slidecontainershutterstock_12843229 .next, .art-slidecontainershutterstock_12843229 .prev {
+    display: block;
+}
+
+.art-slidecontainershutterstock_12843229 .active {
+    opacity: 1;
+}
+
+.art-slidecontainershutterstock_12843229 .next, .art-slidecontainershutterstock_12843229 .prev {
+    width: 100%;
+}
+
+.art-slidecontainershutterstock_12843229 .next.forward, .art-slidecontainershutterstock_12843229 .prev.back {
+    opacity: 1;
+}
+
+.art-slidecontainershutterstock_12843229 .active.forward {
+    opacity: 0;
+}
+
+.art-slidecontainershutterstock_12843229 .active.back {
+    opacity: 0;
+}
+
+
+.art-slideshutterstock_128432290 {
+    background-image:  url('images/slideshutterstock_128432290.jpg');
+        /* background-size:  auto auto; */
+        background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+/* special setup for header/pageslider */
+.responsive .art-header .art-slideshutterstock_128432290 {
+    background-image:  url('images/slideshutterstock_128432290.jpg');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.responsive .art-pageslider .art-slideshutterstock_128432290 {
+    background-image:  url('images/slideshutterstock_128432290.jpg');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-header .art-slideshutterstock_128432290 {
+    background-image: url('images/slideshutterstock_128432290.jpg');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-pageslider .art-slideshutterstock_128432290 {
+    background-image: url('images/slideshutterstock_128432290.jpg');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}.art-slideshutterstock_128432291 {
+    background-image:  url('images/slideshutterstock_128432291.jpg');
+        /* background-size:  auto auto; */
+        background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+/* special setup for header/pageslider */
+.responsive .art-header .art-slideshutterstock_128432291 {
+    background-image:  url('images/slideshutterstock_128432291.jpg');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.responsive .art-pageslider .art-slideshutterstock_128432291 {
+    background-image:  url('images/slideshutterstock_128432291.jpg');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-header .art-slideshutterstock_128432291 {
+    background-image: url('images/slideshutterstock_128432291.jpg');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-pageslider .art-slideshutterstock_128432291 {
+    background-image: url('images/slideshutterstock_128432291.jpg');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.art-slidenavigatorshutterstock_12843229 {
+  display: inline-block;
+  position: absolute;
+  direction: ltr !important;
+  top: 180px;
+  left: 85.62%;
+  z-index: 101;
+  line-height: 0 !important;
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+    white-space: nowrap;
+    }
+.art-slidenavigatorshutterstock_12843229
+{
+background: #8EB4CC;background: -webkit-linear-gradient(top, rgba(195, 215, 228, 0.6) 0, rgba(86, 142, 179, 0.6) 100%) no-repeat;background: -moz-linear-gradient(top, rgba(195, 215, 228, 0.6) 0, rgba(86, 142, 179, 0.6) 100%) no-repeat;background: -o-linear-gradient(top, rgba(195, 215, 228, 0.6) 0, rgba(86, 142, 179, 0.6) 100%) no-repeat;background: -ms-linear-gradient(top, rgba(195, 215, 228, 0.6) 0, rgba(86, 142, 179, 0.6) 100%) no-repeat;-svg-background: linear-gradient(top, rgba(195, 215, 228, 0.6) 0, rgba(86, 142, 179, 0.6) 100%) no-repeat;background: linear-gradient(to bottom, rgba(195, 215, 228, 0.6) 0, rgba(86, 142, 179, 0.6) 100%) no-repeat;
+-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;
+
+
+padding:7px;
+
+
+
+
+
+}
+.art-slidenavigatorshutterstock_12843229 > a
+{
+background: #3C6886;background: #3C6886;background: #3C6886;background: #3C6886;background: #3C6886;-svg-background: #3C6886;background: #3C6886;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+.art-slidenavigatorshutterstock_12843229 > a.active
+{
+background: #F9C367;background: #F9C367;background: #F9C367;background: #F9C367;background: #F9C367;-svg-background: #F9C367;background: #F9C367;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+.art-slidenavigatorshutterstock_12843229 > a:hover
+{
+background: #A26907;background: #A26907;background: #A26907;background: #A26907;background: #A26907;-svg-background: #A26907;background: #A26907;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+
+.art-slidecontainershutterstock_10015342 {
+    position: relative;
+        width: 296px;
+    height: 197px;
+        }
+
+.default-responsive .art-header .art-slidecontainershutterstock_10015342,
+.responsive .art-header .art-slidecontainershutterstock_10015342
+{
+  position: absolute !important;
+}
+
+.responsive .art-pageslider .art-slidecontainershutterstock_10015342 {
+  position: absolute !important;
+}
+
+.art-slidecontainershutterstock_10015342 .art-slide-item
+{
+
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    transform: rotate(0);
+}
+
+
+
+.art-slidecontainershutterstock_10015342 .art-slide-item {
+    -webkit-transition: 600ms ease-in-out opacity;
+    -moz-transition: 600ms ease-in-out opacity;
+    -ms-transition: 600ms ease-in-out opacity;
+    -o-transition: 600ms ease-in-out opacity;
+    transition: 600ms ease-in-out opacity;
+    position: absolute !important;
+    display: none;
+	left: 0;
+	top: 0;
+	opacity: 0;
+    width:  100%;
+    height: 100%;
+}
+
+.art-slidecontainershutterstock_10015342 .active, .art-slidecontainershutterstock_10015342 .next, .art-slidecontainershutterstock_10015342 .prev {
+    display: block;
+}
+
+.art-slidecontainershutterstock_10015342 .active {
+    opacity: 1;
+}
+
+.art-slidecontainershutterstock_10015342 .next, .art-slidecontainershutterstock_10015342 .prev {
+    width: 100%;
+}
+
+.art-slidecontainershutterstock_10015342 .next.forward, .art-slidecontainershutterstock_10015342 .prev.back {
+    opacity: 1;
+}
+
+.art-slidecontainershutterstock_10015342 .active.forward {
+    opacity: 0;
+}
+
+.art-slidecontainershutterstock_10015342 .active.back {
+    opacity: 0;
+}
+
+
+.art-slideshutterstock_100153420 {
+    background-image:  url('images/slideshutterstock_100153420.jpg');
+        /* background-size:  auto auto; */
+        background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+/* special setup for header/pageslider */
+.responsive .art-header .art-slideshutterstock_100153420 {
+    background-image:  url('images/slideshutterstock_100153420.jpg');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.responsive .art-pageslider .art-slideshutterstock_100153420 {
+    background-image:  url('images/slideshutterstock_100153420.jpg');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-header .art-slideshutterstock_100153420 {
+    background-image: url('images/slideshutterstock_100153420.jpg');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-pageslider .art-slideshutterstock_100153420 {
+    background-image: url('images/slideshutterstock_100153420.jpg');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}.art-slideshutterstock_100153421 {
+    background-image:  url('images/slideshutterstock_100153421.jpg');
+        /* background-size:  auto auto; */
+        background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+/* special setup for header/pageslider */
+.responsive .art-header .art-slideshutterstock_100153421 {
+    background-image:  url('images/slideshutterstock_100153421.jpg');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.responsive .art-pageslider .art-slideshutterstock_100153421 {
+    background-image:  url('images/slideshutterstock_100153421.jpg');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-header .art-slideshutterstock_100153421 {
+    background-image: url('images/slideshutterstock_100153421.jpg');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-pageslider .art-slideshutterstock_100153421 {
+    background-image: url('images/slideshutterstock_100153421.jpg');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.art-slidenavigatorshutterstock_10015342 {
+  display: inline-block;
+  position: absolute;
+  direction: ltr !important;
+  top: 173px;
+  left: 85.14%;
+  z-index: 101;
+  line-height: 0 !important;
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+    white-space: nowrap;
+    }
+.art-slidenavigatorshutterstock_10015342
+{
+background: #8EB4CC;background: -webkit-linear-gradient(top, rgba(195, 215, 228, 0.6) 0, rgba(86, 142, 179, 0.6) 100%) no-repeat;background: -moz-linear-gradient(top, rgba(195, 215, 228, 0.6) 0, rgba(86, 142, 179, 0.6) 100%) no-repeat;background: -o-linear-gradient(top, rgba(195, 215, 228, 0.6) 0, rgba(86, 142, 179, 0.6) 100%) no-repeat;background: -ms-linear-gradient(top, rgba(195, 215, 228, 0.6) 0, rgba(86, 142, 179, 0.6) 100%) no-repeat;-svg-background: linear-gradient(top, rgba(195, 215, 228, 0.6) 0, rgba(86, 142, 179, 0.6) 100%) no-repeat;background: linear-gradient(to bottom, rgba(195, 215, 228, 0.6) 0, rgba(86, 142, 179, 0.6) 100%) no-repeat;
+-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;
+
+
+padding:7px;
+
+
+
+
+
+}
+.art-slidenavigatorshutterstock_10015342 > a
+{
+background: #3C6886;background: #3C6886;background: #3C6886;background: #3C6886;background: #3C6886;-svg-background: #3C6886;background: #3C6886;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+.art-slidenavigatorshutterstock_10015342 > a.active
+{
+background: #F9C367;background: #F9C367;background: #F9C367;background: #F9C367;background: #F9C367;-svg-background: #F9C367;background: #F9C367;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+.art-slidenavigatorshutterstock_10015342 > a:hover
+{
+background: #A26907;background: #A26907;background: #A26907;background: #A26907;background: #A26907;-svg-background: #A26907;background: #A26907;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+
+</style></head>
+<body>
+<div id="art-main">
+<header class="art-header">
+
+    <div class="art-shapes">
+        
+            </div>
+
+<h1 class="art-headline">
+    <a href="/">Weilaw</a>
+</h1>
+<h2 class="art-slogan">MAKing LIFE WEILAW</h2>
+
+
+
+
+
+<nav class="art-nav">
+    <ul class="art-hmenu"><li><a href="shouxie.html" class="active">首頁</a></li><li><a href="lianlaowo.html">聯絡我</a></li></ul> 
+    </nav>
+
+                    
+</header>
+<div class="art-sheet clearfix">
+            <div class="art-layout-wrapper">
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-content"><article class="art-post art-article">
+                                
+                                                
+                <div class="art-postcontent art-postcontent-0 clearfix"><div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+        <h4><span style="font-size: 26px;">一、學歷：</span></h4><img width="300" height="199" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px;" alt="" class="art-lightbox" src="images/c747fc48-3090-497f-8959-c09d8c3e581e.png">
+    </div>
+    </div>
+</div>
+<div class="art-content-layout2">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 900px" >
+        <h4><span style="font-size: 26px;">一、學歷：</span></h4><p><br></p><p><span style="font-weight: bold; font-size: 26px;">台北大學法律系&nbsp;</span></p><p><span style="font-weight: bold; font-size: 26px;">台灣大學法學碩士&nbsp;</span></p><p><span style="font-weight: bold; font-size: 26px;">台灣大學法學博士候選人</span></p><p><br></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+        <h4><span style="font-size: 26px;">二、經歷與現職：</span></h4><div id="shutterstock_12843229" style="position: relative; display: inline-block; z-index: 0; margin: 0px;  border-width: 0px;  " class="art-collage">
+<div class="art-slider art-slidecontainershutterstock_12843229" data-width="306" data-height="204">
+    <div class="art-slider-inner">
+<div class="art-slide-item art-slideshutterstock_128432290" >
+
+
+</div>
+<div class="art-slide-item art-slideshutterstock_128432291" >
+
+
+</div>
+
+    </div>
+</div>
+<div class="art-slidenavigator art-slidenavigatorshutterstock_12843229" data-left="1" data-top="1">
+<a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a>
+</div>
+
+
+
+    </div>
+
+    </div>
+    </div>
+</div>
+<div class="art-content-layout2">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 900px" >
+        <h4><span style="font-size: 26px;">二、經歷與現職：</span></h4><p><br></p><p><span style="font-weight: bold; font-size: 26px;">總統蔡英文法律顧問&nbsp;</span></p><p><span style="font-weight: bold; font-size: 26px;">立委吳思瑤、蘇巧慧、林昶佐法律顧問&nbsp;</span></p><p><span style="font-weight: bold; font-size: 26px;">台北市選委會監察委員&nbsp;</span></p><p><span style="font-weight: bold; font-size: 26px;">台北律師公會候補理事&nbsp;</span></p><p><span style="font-weight: bold; font-size: 26px;">台北市台南市同鄉會總幹事、理事&nbsp;</span></p><p><span style="font-weight: bold; font-size: 26px;">中華法學研究會理事</span></p><p><br></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+        <h4><span style="font-size: 26px;">三、扶輪：</span></h4>
+<div id="shutterstock_10015342" style="position: relative; display: inline-block; z-index: 0; margin: 0px;  border-width: 0px;  " class="art-collage">
+<div class="art-slider art-slidecontainershutterstock_10015342" data-width="296" data-height="197">
+    <div class="art-slider-inner">
+<div class="art-slide-item art-slideshutterstock_100153420" >
+
+
+</div>
+<div class="art-slide-item art-slideshutterstock_100153421" >
+
+
+</div>
+
+    </div>
+</div>
+<div class="art-slidenavigator art-slidenavigatorshutterstock_10015342" data-left="1" data-top="1">
+<a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a>
+</div>
+
+
+
+    </div>
+
+    </div>
+    </div>
+</div>
+<div class="art-content-layout2">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 900px" >
+        <h4><span style="font-size: 26px;">三、扶輪：</span></h4><p><span style="font-weight: bold;"><br></span></p><p><span style="font-weight: bold; font-size: 26px;">16-17，台北同心扶輪社社長&nbsp;</span></p><p><span style="font-weight: bold; font-size: 26px;">17-18 ，3482地區偏鄉英文委員會公關長</span></p><p><span style="font-weight: bold; font-size: 26px;">18-19 ，3482地區年會提案主委、RYLA副主委&nbsp;</span></p><p><span style="font-weight: bold; font-size: 26px;">19-20，地區青少年保護主委&nbsp;</span></p><p><span style="font-weight: bold; font-size: 26px;">20-21，3482地區法治教育主委</span></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+        <h1>四、媒體介紹</h1>
+        <p>1.獨家報導<span style="font-size: 15px; font-weight: bold;font-family: 'Century Gothic';"></span></p><p>&nbsp;<a href="https://n.yam.com/Article/20190824848529" accesskey="獨家報導" class="art-button">獨家報導</a>&nbsp;<br></p><p><img width="852" height="568" alt="" class="art-lightbox" src="images/105985.jpg"><br></p>
+        <p><img width="852" height="568" alt="" class="art-lightbox" src="images/105986.jpg"><br></p><p>2.媒體採訪影片（震震有詞、台灣大代誌、俗女家務事、新聞政論）<span style="font-weight: bold; font-size: 15px; font-family: 'Century Gothic';"></span><span style="color:rgb(108, 172, 224);"></span><br>&nbsp;<a href="https://m.youtube.com/channel/UCk8UR_BB9h8xEXsMI4JbupQ/videos" title="媒體採訪影片" class="art-youtube-tag-icon" style="line-height: 32px; ">媒體採訪影片</a>&nbsp;<br></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+        <h1>相關連結&nbsp;</h1><p><span style="font-size: 26px;">&nbsp;<a href="https://www.facebook.com/bearbearbigbig/" title="陳君瑋律師" class="art-facebook-tag-icon" style="line-height: 32px;">陳君瑋律師</a>&nbsp;</span><span style="font-size: 16px;"><br></span></p><p><span style="font-size: 26px;">&nbsp;<a href="https://www.youtube.com/channel/UCk8UR_BB9h8xEXsMI4JbupQ/videos?app=desktop" title="熊大律師" class="art-youtube-tag-icon" style="line-height: 32px;">熊大律師</a>&nbsp;</span><span style="font-size: 26px;"><br></span></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+        <p><br></p>
+    </div>
+    </div>
+</div>
+</div>
+                                
+                
+
+</article></div>
+                    </div>
+                </div>
+            </div>
+    </div>
+<footer class="art-footer">
+  <div class="art-footer-inner">
+<div class="art-content-layout-wrapper layout-item-0">
+<div class="art-content-layout layout-item-1">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-2" style="width: 50%">
+        <p>Copyright © 2020. All Rights Reserved.</p>
+    </div><div class="art-layout-cell layout-item-2" style="width: 50%">
+        <p style="text-align: right;"><a href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="#">Terms Of Use</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="#">About</a></p>
+    </div>
+    </div>
+</div>
+</div>
+
+    <p class="art-page-footer">
+        <span id="art-footnote-links"><a href="http://weilaw.bestranslate.com/" target="_blank">Web Development</a> created by Mike Ryzhov 雷米.</span>
+    </p>
+  </div>
+</footer>
+
+</div>
+
+
+</body></html>
